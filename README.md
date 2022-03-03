@@ -1,35 +1,15 @@
-# DataScienceGuidedCapstone
+The purpose of this study is to gather past data on start-ups in India to better understand how, and which future companies will be funded.
 
-Hello students!
-Welcome to the Data Science Guided Capstone! 
+In https://github.com/ptlong11/DataScienceGuidedCapstone/blob/master/2nd%20capstone%20(1).ipynb we understand the Indian state most of the startup funding is going to. The states with the most start-ups funded are Bengaluru, Mumbai, and Delhi.
 
-## Getting Started
+In https://github.com/ptlong11/DataScienceGuidedCapstone/blob/master/2nd%20capstone%20(1).ipynb we find the industries that are being funded the most, the amount they are being funded, and where the fudning is coming from. Some of the top places start-ups are getting funding from are seed funding. There are over 170 unique industries that these start ups are part of. Something to note. I wanted to make sure that the start-ups were being grouped into each state, so in the data from https://www.kaggle.com/paree24/india-gdp-growth-world-bank-1961-to-2017 and https://rbi.org.in/Scripts/PublicationsView.aspx?id=20006, the start-ups were grouped per city, I coded each city to their respective state.
 
-Start by forking this repository to your personal GitHub account and cloning the fork to your local machine. 
+in https://github.com/ptlong11/DataScienceGuidedCapstone/blob/master/Exploratory%20Data%20Analysis.ipynb We take a deeper look into which states are most funded, and by how much. At first glance it might seem that there are no start-ups in the rest of the country getting funding besides the ones in Delhi. However, if you break the data down a bit more there are certainly start-ups getting a lot of money in the rest of the counrty. The start-ups that are coming out of Chandigarh and Goa, as well as others, are getting good funding compared to mass in Delhi.
 
-**Note**: If forking and cloning a repo is new to you and/or github is new to you then it is strongly suggested to use [GitHub desktop](https://desktop.github.com/) and follow instructions in the docs [here](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop).
+Again, we can see Delhi dominates most of the funding, per capita. However, the other two states; Chandigarth and Goa, both have startups that have recived large amounts of Prive Equity funding as well as Seed funiding.
 
-From https://github.com/springboard-curriculum/DataScienceGuidedCapstone press the green "code" dropdown and then press "Open with GitHub Desktop". This will fork the springboard repository into your own github account and then clone that fork to your local machine - it is in here that you will do your work and push your changes back to your fork of the repo in your own github account. 
+I wanted to find out if there was any specific timing of investments, a 'capital raising season' during the year. In https://github.com/ptlong11/DataScienceGuidedCapstone/blob/master/Exploratory%20Data%20Analysis.ipynb We can see that Private Equity funding, as well as, Seed Funding is distributed throughout the year. However, there is some evidence that as the year contiunes we can see that funding in other areas ramps up. This could be the same start-ups reciving multiple roudns of funding throughout the year, or, companies starting to look at Indian Start-ups beginning at the start of the year.
 
-You will find the notebooks in the Notebooks/ directory. 
+In https://github.com/ptlong11/DataScienceGuidedCapstone/blob/master/Capstone%20Two%20-%20Modeling.ipynb Linear Regression model, Random Forest Regressor, Gradient Boost Regressor, and Neural Network models are explored.
 
-You will find instructions on how to complete and submit each step of the Guided Capstone in the course materials. Each subunit will focus on one step of the Capstone, corresponding to a step of the Data Science Method. Find the Jupyter Notebook corresponding to the subunit you are working on, and open it. Follow along as you are guided through the work, and fill in the blanks!
-
-When you are done with the notebook, push the changes to your personal GitHub account.
-
-## Pipenv
-
-The `Pipefile` has all the python dependencies and requirements you should need. So you can use [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/) is you want to create a seperate python enviornment for this project. 
-
-To install pipenv see [here](https://pipenv-fork.readthedocs.io/en/latest/#install-pipenv-today).
-
-To create the env and install the required libraries (once you have pipenv installed) you can just do:
-```
-pipenv install
-```
-
-Then to activate the env and launch jupyter from this env you can do something like the below two commands:
-```
-pipenv shell
-jupyter lab
-```
+I am able to recommend that if an outside investor is looking to invest in Indian start-ups to start in Delhi, as that is where most start-ups are located. However, there are start-ups to be funded that are outside of Delhi, which, may offer more looked over opportunities. Most start-ups are funded by "Seed Rounds". A seed round is a financing round that raises initial capital to start a business. Seed capital often comes from the company founders' personal assets, friends and family, angel investors, and VCs. The type of industry most heavily invested in is consumer services. Those are also the most numerous. There are opporunities to invest in that industry, but, like the states, there may be opporunity in other industries that aren't as tapped.
